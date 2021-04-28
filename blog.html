@@ -1,0 +1,921 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+
+    </title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://kit.fontawesome.com/f368dd0adb.js" crossorigin="anonymous"></script>
+
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Lato);
+        @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        p>a:hover {
+            color: #d9d9d9;
+            text-decoration: underline;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 1% 0 1% 0;
+        }
+
+        ._12 {
+            font-size: 1.2em;
+        }
+
+        ._14 {
+            font-size: 1.4em;
+        }
+
+        .footer-social-icons {
+            width: 350px;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .social-icon {
+            color: #fff;
+        }
+
+        ul.social-icons {
+            margin-top: 10px;
+        }
+
+        .social-icons li {
+            vertical-align: top;
+            display: inline;
+            height: 100px;
+            margin-left: 12px;
+        }
+
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .fa-facebook {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+        .fa-facebook:hover {
+            background-color: #3d5b99;
+        }
+
+        .fa-twitter {
+            padding: 10px 12px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+        .fa-twitter:hover {
+            background-color: #00aced;
+        }
+
+        .fa-pinterest {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+        .fa-pinterest:hover {
+            background-color: #e64a41;
+        }
+
+        .fa-youtube {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+        .fa-youtube:hover {
+            background-color: #e64a41;
+        }
+
+        .fa-linkedin {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+        .fa-linkedin:hover {
+            background-color: #0073a4;
+        }
+
+        .fa-instagram {
+            padding: 10px 14px;
+            -o-transition: .5s;
+            -ms-transition: .5s;
+            -moz-transition: .5s;
+            -webkit-transition: .5s;
+            transition: .5s;
+            background-color: #322f30;
+        }
+
+        .fa-instagram:hover {
+            background-color: #5a32a3;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-none d-lg-block">
+
+        <div class="header">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <h3 class="my-auto"><a class="navbar-brand" href="#" style="color: yellowgreen;">envatomarket</a></h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+                    <form class="form-inline ml-auto">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit"
+                            style="padding-right: 20px; padding-left: 20px;">Buy Now</button>
+                    </form>
+                </div>
+            </nav><br><br>
+
+
+            <!--
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark" style="padding: 20px;">
+
+                <div class="col-lg-6 col-md-3" style="margin-left: -20px;">
+                    <i class="fa fa-envelope-o" style="font-size:20px;color:red"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="color: white; font-size: 16px; text-align: center;">newsvolt@gmail.com</span>
+                    <i class="fa fa-phone" style="font-size:20px; margin-left: 30px; color:red"></i>&nbsp;&nbsp;&nbsp;
+                    <span style="color: white; font-size: 16px;">+1 (305) 1234-5678</span>
+
+                </div>
+                <div class="collapse navbar-collapse w-100 flex-md-column col-lg-6" id="navbarCollapse"
+                    style="margin-right: -100px;">
+                    <form class="form-inline ml-auto">
+                        <div class="footer-social-icons">
+                            <ul class="social-icons">
+                                <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                                <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                                <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                                <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="" class="social-icon"> <i class="fa fa-pinterest"></i></a></li>
+                                <li><a href="" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </form>
+                </div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-instagram">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg> 
+            </nav>-->
+            <div class="top-header-section">
+                <div class="container" style="margin-top: 10px;">
+                    <div class="top-header d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="top-header-left d-flex flex-wrap">
+                            <div class="d-flex align-items-center contact-support">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-mail">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg> <span>newsvolt@gmail.com</span>
+                            </div>
+                            <div class="d-flex align-items-center contact-support phone-support">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-phone">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg> <span>+1 (305) 1234-5678</span>
+                            </div>
+                        </div>
+                        <div class="top-header-right">
+                            <div class="social-profile">
+                                <a href="https://www.facebook.com/ghost">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.2831 8.9908H14.6794V6.63C14.6794 5.7434 15.2696 5.5354 15.683 5.5354H18.2207V1.638L14.721 1.625C10.8392 1.625 9.95783 4.5318 9.95783 6.3934V8.9908H7.71143V13.0052H9.95783V24.3724H14.682V13.0078H17.8697L18.2831 8.9908Z"
+                                            fill="currentColor" />
+                                    </svg> </a>
+                                <a href="https://twitter.com/ghost">
+                                    <svg width="25" height="20" viewBox="0 0 25 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.5028 2.3548C23.6012 2.7552 22.6324 3.024 21.616 3.1472C22.6548 2.5256 23.45 1.54 23.8252 0.3668C22.8536 0.9436 21.7756 1.3608 20.6332 1.5876C19.7176 0.6104 18.41 0 16.9652 0C14.1876 0 11.9364 2.2484 11.9364 5.026C11.9364 5.4208 11.9812 5.8044 12.0652 6.1712C7.8876 5.9612 4.1832 3.962 1.7052 0.9184C1.274 1.6604 1.0248 2.5256 1.0248 3.4468C1.0248 5.1912 1.9124 6.7284 3.2592 7.63C2.436 7.6048 1.6604 7.378 0.9828 7V7.0644C0.9828 9.5004 2.716 11.5304 5.0148 11.9924C4.5948 12.1072 4.1496 12.1688 3.6904 12.1688C3.3656 12.1688 3.052 12.138 2.7468 12.0792C3.3852 14.0756 5.2416 15.5288 7.4396 15.5708C5.7204 16.9176 3.556 17.7212 1.1984 17.7212C0.7924 17.7212 0.3948 17.6988 0 17.6512C2.226 19.0764 4.8664 19.908 7.7056 19.908C16.9512 19.908 22.008 12.25 22.008 5.6084C22.008 5.39 22.0024 5.1744 21.994 4.9588C22.9768 4.2476 23.8308 3.3628 24.5028 2.3548Z"
+                                            fill="currentColor" />
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-youtube">
+                                        <path
+                                            d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                                        </path>
+                                        <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M26.1151 1.87207H3.88505C2.82005 1.87207 1.95605 2.71507 1.95605 3.75607V26.2441C1.95605 27.2851 2.82005 28.1251 3.88505 28.1251H26.1151C27.1801 28.1251 28.0441 27.2851 28.0441 26.2441V3.75307C28.0411 2.71507 27.1771 1.87207 26.1151 1.87207ZM9.86405 23.8441H5.92505V11.9941H9.86405V23.8441V23.8441ZM7.89605 10.3771H7.86905C6.54605 10.3771 5.69405 9.46807 5.69405 8.32807C5.69405 7.16407 6.57605 6.27907 7.92005 6.27907C9.27005 6.27907 10.0981 7.16407 10.1221 8.32807C10.1221 9.46807 9.27005 10.3771 7.89605 10.3771ZM24.0721 23.8441H20.1301V17.5051C20.1301 15.9121 19.5631 14.8261 18.1381 14.8261C17.0461 14.8261 16.3981 15.5581 16.1131 16.2661C16.0111 16.5211 15.9871 16.8751 15.9871 17.2261V23.8501H12.0451C12.0451 23.8501 12.0961 13.1101 12.0451 11.9971H15.9871V13.6741C16.5091 12.8671 17.4481 11.7181 19.5361 11.7181C22.1281 11.7181 24.0721 13.4131 24.0721 17.0551V23.8441V23.8441Z"
+                                            fill="currentColor" />
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="pinterest-p"
+                                        class="svg-inline--fa fa-pinterest-p fa-w-12" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path fill="currentColor"
+                                            d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z">
+                                        </path>
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-instagram">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="col-lg-3" style="margin-left: -15px;">
+                    <img src="images/logo-light.svg" width="40%">
+                </div>
+                <div class="row w-100">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <div class="col-12 text-white p-3 navlist center-menu">
+                                    <ul class="navbar-nav mt-2 mt-lg-0 d-flex justify-content-around">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Elements</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Tags</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Authors</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+                    <form class="form-inline ml-auto">
+                        <i class="fa fa-search" style="font-size:24px" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <h4 class="my-auto"><a class="navbar-brand" href="#"
+                                style="color: rgb(78, 77, 77); font-size: 15px;">Signin</a></h4>
+                        <button class="btn btn-danger my-2 my-sm-0" type="submit">Signup</button>
+                    </form>
+                </div>
+            </nav>
+
+        </div>
+
+        <div class="container-fluid" style="margin-top: 50px;">
+
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-xs-4 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/technology-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-4 thumb">
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/medicare.jpg" height="25%" alt="">
+                    </a><br><br><br>
+                    <a class="thumbnail" href="#">
+                        <img class="img-responsive" src="images/photography.jpg" alt="">
+                    </a>
+
+                </div>
+                <div class="col-lg-3 col-md-3 col-xs-4 thumb">
+
+                    <div class="latest-posts-section s-related-post"
+                        style="margin-top: -5px; position: relative; height: 45%;">
+                        <h5 class="heading-latest-posts">
+                            Lateste News
+                        </h5>
+                        <div class="sidebar-section">
+                            <div class="d-flex">
+                                <div class="food-feature-image latest-posts">
+                                    <a href="#">
+                                        <img src="images/technology.jpg">
+                                    </a>
+                                </div>
+                                <div class="food-post-title">
+                                    <div class="post-meta">
+                                        <span>
+                                            21 Dec 2020
+                                        </span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <span>
+                                            3 min read
+                                        </span>
+                                    </div>
+                                    <h6><a href="#">Industry Trends That Could Define 2021</a>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="food-feature-image latest-posts">
+                                    <a href="#">
+                                        <img src="images/fitness.jpg">
+                                    </a>
+                                </div>
+                                <div class="food-post-title">
+                                    <div class="post-meta">
+                                        <span>
+                                            21 Dec 2020
+                                        </span>
+                                        <span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            2 min read
+                                        </span>
+                                    </div>
+                                    <h6><a href="#">Top 20 Health and Fitness Blogs of 2021</a></h6>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="food-feature-image latest-posts">
+                                    <a href="#">
+                                        <img src="images/fitnes-3.jpg">
+                                    </a>
+                                </div>
+                                <div class="food-post-title">
+                                    <div class="post-meta">
+                                        <span>
+                                            21 Dec 2020
+                                        </span>
+                                        <span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            2 min read
+                                        </span>
+                                    </div>
+                                    <h6><a href="#">The Birth of Intuitive Fitness</a></h6>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="food-feature-image latest-posts">
+                                    <a href="#">
+                                        <img src="images/fashion-6.jpg">
+                                    </a>
+                                </div>
+                                <div class="food-post-title">
+                                    <div class="post-meta">
+                                        <span>
+                                            18 Dec 2020
+                                        </span>
+                                        <span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            2 min read
+                                        </span>
+                                    </div>
+                                    <h6><a href="#">Saint Laurent reveals latest collection</a></h6>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+                                <div class="food-feature-image latest-posts">
+                                    <a href="#">
+                                        <img src="images/fashion-4.jpg">
+                                    </a>
+                                </div>
+                                <div class="food-post-title">
+                                    <div class="post-meta">
+                                        <span>
+                                            18 Dec 2020
+                                        </span>
+                                        <span>&nbsp;&nbsp;&nbsp;&nbsp;
+                                            2 min read
+                                        </span>
+                                    </div>
+                                    <h6><a href="#">the Global Apparel Industry</a></h6>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="related-post-title d-flex align-items-center justify-content-center">
+                                <div class="dots-inner">
+                                    <span></span>
+                                    <span class="dots-sm"></span>
+                                </div>
+                                <h3><span>Reader</span> Choice</h3>
+                                <div class="dots-inner">
+                                    <span class="dots-sm"></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 footer-widget-box">
+                        <div class="footer-widget-item">
+                            <div class="f-logo">
+                                <a href="#">
+                                    <img class="logo-light" src="images/logo-light.svg" alt="Newsvolt">
+                                </a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, sit lectus fermentum
+                                donec
+                                id aliquam. Lacus vestibulum in duis orci gravida et. Risus nulla aliquam at nulla
+                                in
+                                cras tortor vehicula.</p>
+
+                            <h6 class="site-follow">Follow Us</h6>
+                            <ul class="social-site">
+                                <li>
+                                    <a href="#">
+                                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M18.2831 8.9908H14.6794V6.63C14.6794 5.7434 15.2696 5.5354 15.683 5.5354H18.2207V1.638L14.721 1.625C10.8392 1.625 9.95783 4.5318 9.95783 6.3934V8.9908H7.71143V13.0052H9.95783V24.3724H14.682V13.0078H17.8697L18.2831 8.9908Z"
+                                                fill="currentColor" />
+                                        </svg> </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="25" height="20" viewBox="0 0 25 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M24.5028 2.3548C23.6012 2.7552 22.6324 3.024 21.616 3.1472C22.6548 2.5256 23.45 1.54 23.8252 0.3668C22.8536 0.9436 21.7756 1.3608 20.6332 1.5876C19.7176 0.6104 18.41 0 16.9652 0C14.1876 0 11.9364 2.2484 11.9364 5.026C11.9364 5.4208 11.9812 5.8044 12.0652 6.1712C7.8876 5.9612 4.1832 3.962 1.7052 0.9184C1.274 1.6604 1.0248 2.5256 1.0248 3.4468C1.0248 5.1912 1.9124 6.7284 3.2592 7.63C2.436 7.6048 1.6604 7.378 0.9828 7V7.0644C0.9828 9.5004 2.716 11.5304 5.0148 11.9924C4.5948 12.1072 4.1496 12.1688 3.6904 12.1688C3.3656 12.1688 3.052 12.138 2.7468 12.0792C3.3852 14.0756 5.2416 15.5288 7.4396 15.5708C5.7204 16.9176 3.556 17.7212 1.1984 17.7212C0.7924 17.7212 0.3948 17.6988 0 17.6512C2.226 19.0764 4.8664 19.908 7.7056 19.908C16.9512 19.908 22.008 12.25 22.008 5.6084C22.008 5.39 22.0024 5.1744 21.994 4.9588C22.9768 4.2476 23.8308 3.3628 24.5028 2.3548Z"
+                                                fill="currentColor" />
+                                        </svg> </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M26.1151 1.87207H3.88505C2.82005 1.87207 1.95605 2.71507 1.95605 3.75607V26.2441C1.95605 27.2851 2.82005 28.1251 3.88505 28.1251H26.1151C27.1801 28.1251 28.0441 27.2851 28.0441 26.2441V3.75307C28.0411 2.71507 27.1771 1.87207 26.1151 1.87207ZM9.86405 23.8441H5.92505V11.9941H9.86405V23.8441V23.8441ZM7.89605 10.3771H7.86905C6.54605 10.3771 5.69405 9.46807 5.69405 8.32807C5.69405 7.16407 6.57605 6.27907 7.92005 6.27907C9.27005 6.27907 10.0981 7.16407 10.1221 8.32807C10.1221 9.46807 9.27005 10.3771 7.89605 10.3771ZM24.0721 23.8441H20.1301V17.5051C20.1301 15.9121 19.5631 14.8261 18.1381 14.8261C17.0461 14.8261 16.3981 15.5581 16.1131 16.2661C16.0111 16.5211 15.9871 16.8751 15.9871 17.2261V23.8501H12.0451C12.0451 23.8501 12.0961 13.1101 12.0451 11.9971H15.9871V13.6741C16.5091 12.8671 17.4481 11.7181 19.5361 11.7181C22.1281 11.7181 24.0721 13.4131 24.0721 17.0551V23.8441V23.8441Z"
+                                                fill="currentColor" />
+                                        </svg> </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fab"
+                                            data-icon="pinterest-p" class="svg-inline--fa fa-pinterest-p fa-w-12"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-instagram">
+                                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                        </svg> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-widget-box">
+                        <div class="footer-widget">
+                            <h5>Category</h5>
+                            <div class="tag-list-inner">
+                                <div class="tag-list">
+                                    <ul>
+                                        <li><a href="#">culture</a></li>
+                                        <li><a href="#">popular</a></li>
+                                        <li><a href="#">travel</a></li>
+                                        <li><a href="#">international</a></li>
+                                        <li><a href="#">fashion</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tag-list">
+                                    <ul>
+                                        <li><a href="#">design</a></li>
+                                        <li><a href="#">photography</a></li>
+                                        <li><a href="#">food</a></li>
+                                        <li><a href="#">trending</a></li>
+                                        <li><a href="#">art</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-widget-box">
+                        <div class="footer-widget">
+                            <h5>Useful Link</h5>
+                            <div class="f-menu-wrapper">
+                                <ul class="f-menu">
+                                    <li class="nav-features"><a href="#">Features</a></li>
+                                    <li class="nav-account"><a href="#">Account</a></li>
+                                    <li class="nav-signin"><a href="#">Signin</a></li>
+                                    <li class="nav-signup"><a href="#">Signup</a></li>
+                                    <li class="nav-post-fullwidth"><a href="#">Post Fullwidth</a></li>
+                                    <li class="nav-left-sidebar"><a href="#"></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-widget-box ">
+                        <div class="footer-widget">
+                            <h5>Contact Us</h5>
+                            <div class="contact-info">
+                                <address class="con-step-one mb-20">
+                                    <a href="#">newsvolt@gmail.com</a><br>
+                                    <span>+123 456 - 789</span>
+                                </address>
+                                <address class="con-step-one">
+                                    Road - 13 , Block - B<br>
+                                    <span>Grand Canion , Arizona , USA</span>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <div class="copy-right-content">
+                            <div class="copy-right-text">
+                                <p>All copyright reserved by Electronthemes. Published with <a href="#">Ghost</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="d-lg-none position-relative ">
+
+        <div class="header">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+                <h3 class="my-auto"><a class="navbar-brand" href="#" style="color: yellowgreen;">envatomarket</a>
+                </h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+                    <form class="form-inline ml-auto">
+                        <button class="btn btn-success my-2 my-sm-0" type="submit"
+                            style="padding-right: 20px; padding-left: 20px;">Buy Now</button>
+                    </form>
+                </div>
+            </nav><br><br>
+
+
+
+            <div class="top-header-section">
+                <div class="container" style="margin-top: 10px;">
+                    <div class="top-header d-flex justify-content-between align-items-center flex-wrap">
+                        <div class="top-header-left d-flex flex-wrap">
+                            <div class="d-flex align-items-center contact-support">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-mail">
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                    </path>
+                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                </svg> <span>newsvolt@gmail.com</span>
+                            </div>
+                            <div class="d-flex align-items-center contact-support phone-support">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-phone">
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                    </path>
+                                </svg> <span>+1 (305) 1234-5678</span>
+                            </div>
+                        </div>
+                        <div class="top-header-right">
+                            <div class="social-profile">
+                                <a href="https://www.facebook.com/ghost">
+                                    <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M18.2831 8.9908H14.6794V6.63C14.6794 5.7434 15.2696 5.5354 15.683 5.5354H18.2207V1.638L14.721 1.625C10.8392 1.625 9.95783 4.5318 9.95783 6.3934V8.9908H7.71143V13.0052H9.95783V24.3724H14.682V13.0078H17.8697L18.2831 8.9908Z"
+                                            fill="currentColor" />
+                                    </svg> </a>
+                                <a href="https://twitter.com/ghost">
+                                    <svg width="25" height="20" viewBox="0 0 25 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M24.5028 2.3548C23.6012 2.7552 22.6324 3.024 21.616 3.1472C22.6548 2.5256 23.45 1.54 23.8252 0.3668C22.8536 0.9436 21.7756 1.3608 20.6332 1.5876C19.7176 0.6104 18.41 0 16.9652 0C14.1876 0 11.9364 2.2484 11.9364 5.026C11.9364 5.4208 11.9812 5.8044 12.0652 6.1712C7.8876 5.9612 4.1832 3.962 1.7052 0.9184C1.274 1.6604 1.0248 2.5256 1.0248 3.4468C1.0248 5.1912 1.9124 6.7284 3.2592 7.63C2.436 7.6048 1.6604 7.378 0.9828 7V7.0644C0.9828 9.5004 2.716 11.5304 5.0148 11.9924C4.5948 12.1072 4.1496 12.1688 3.6904 12.1688C3.3656 12.1688 3.052 12.138 2.7468 12.0792C3.3852 14.0756 5.2416 15.5288 7.4396 15.5708C5.7204 16.9176 3.556 17.7212 1.1984 17.7212C0.7924 17.7212 0.3948 17.6988 0 17.6512C2.226 19.0764 4.8664 19.908 7.7056 19.908C16.9512 19.908 22.008 12.25 22.008 5.6084C22.008 5.39 22.0024 5.1744 21.994 4.9588C22.9768 4.2476 23.8308 3.3628 24.5028 2.3548Z"
+                                            fill="currentColor" />
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-youtube">
+                                        <path
+                                            d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+                                        </path>
+                                        <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M26.1151 1.87207H3.88505C2.82005 1.87207 1.95605 2.71507 1.95605 3.75607V26.2441C1.95605 27.2851 2.82005 28.1251 3.88505 28.1251H26.1151C27.1801 28.1251 28.0441 27.2851 28.0441 26.2441V3.75307C28.0411 2.71507 27.1771 1.87207 26.1151 1.87207ZM9.86405 23.8441H5.92505V11.9941H9.86405V23.8441V23.8441ZM7.89605 10.3771H7.86905C6.54605 10.3771 5.69405 9.46807 5.69405 8.32807C5.69405 7.16407 6.57605 6.27907 7.92005 6.27907C9.27005 6.27907 10.0981 7.16407 10.1221 8.32807C10.1221 9.46807 9.27005 10.3771 7.89605 10.3771ZM24.0721 23.8441H20.1301V17.5051C20.1301 15.9121 19.5631 14.8261 18.1381 14.8261C17.0461 14.8261 16.3981 15.5581 16.1131 16.2661C16.0111 16.5211 15.9871 16.8751 15.9871 17.2261V23.8501H12.0451C12.0451 23.8501 12.0961 13.1101 12.0451 11.9971H15.9871V13.6741C16.5091 12.8671 17.4481 11.7181 19.5361 11.7181C22.1281 11.7181 24.0721 13.4131 24.0721 17.0551V23.8441V23.8441Z"
+                                            fill="currentColor" />
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="pinterest-p"
+                                        class="svg-inline--fa fa-pinterest-p fa-w-12" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                        <path fill="currentColor"
+                                            d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z">
+                                        </path>
+                                    </svg> </a>
+                                <a href="#">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-instagram">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <div class="col-lg-3" style="margin-left: -15px;">
+                    <img src="images/logo-light.svg" width="40%">
+                </div>
+                <div class="row w-100">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                                <div class="col-12 text-white p-3 navlist center-menu">
+                                    <ul class="navbar-nav mt-2 mt-lg-0 d-flex justify-content-around">
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Elements</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Tags</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Authors</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+                    <form class="form-inline ml-auto">
+                        <i class="fa fa-search" style="font-size:24px" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;
+                        <h4 class="my-auto"><a class="navbar-brand" href="#"
+                                style="color: rgb(78, 77, 77); font-size: 15px;">Signin</a></h4>
+                        <button class="btn btn-danger my-2 my-sm-0" type="submit">Signup</button>
+                    </form>
+                </div>
+            </nav>
+
+
+
+        </div>
+
+
+        <div class="footer-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 footer-widget-box">
+                        <div class="footer-widget-item">
+                            <div class="f-logo">
+                                <a href="#">
+                                    <img class="logo-light" src="images/logo-light.svg" alt="Newsvolt">
+                                </a>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc, sit lectus fermentum
+                                donec
+                                id aliquam. Lacus vestibulum in duis orci gravida et. Risus nulla aliquam at nulla
+                                in
+                                cras tortor vehicula.</p>
+
+                            <h6 class="site-follow">Follow Us</h6>
+                            <ul class="social-site">
+                                <li>
+                                    <a href="#">
+                                        <svg width="26" height="26" viewBox="0 0 26 26" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M18.2831 8.9908H14.6794V6.63C14.6794 5.7434 15.2696 5.5354 15.683 5.5354H18.2207V1.638L14.721 1.625C10.8392 1.625 9.95783 4.5318 9.95783 6.3934V8.9908H7.71143V13.0052H9.95783V24.3724H14.682V13.0078H17.8697L18.2831 8.9908Z"
+                                                fill="currentColor" />
+                                        </svg> </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="25" height="20" viewBox="0 0 25 20" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M24.5028 2.3548C23.6012 2.7552 22.6324 3.024 21.616 3.1472C22.6548 2.5256 23.45 1.54 23.8252 0.3668C22.8536 0.9436 21.7756 1.3608 20.6332 1.5876C19.7176 0.6104 18.41 0 16.9652 0C14.1876 0 11.9364 2.2484 11.9364 5.026C11.9364 5.4208 11.9812 5.8044 12.0652 6.1712C7.8876 5.9612 4.1832 3.962 1.7052 0.9184C1.274 1.6604 1.0248 2.5256 1.0248 3.4468C1.0248 5.1912 1.9124 6.7284 3.2592 7.63C2.436 7.6048 1.6604 7.378 0.9828 7V7.0644C0.9828 9.5004 2.716 11.5304 5.0148 11.9924C4.5948 12.1072 4.1496 12.1688 3.6904 12.1688C3.3656 12.1688 3.052 12.138 2.7468 12.0792C3.3852 14.0756 5.2416 15.5288 7.4396 15.5708C5.7204 16.9176 3.556 17.7212 1.1984 17.7212C0.7924 17.7212 0.3948 17.6988 0 17.6512C2.226 19.0764 4.8664 19.908 7.7056 19.908C16.9512 19.908 22.008 12.25 22.008 5.6084C22.008 5.39 22.0024 5.1744 21.994 4.9588C22.9768 4.2476 23.8308 3.3628 24.5028 2.3548Z"
+                                                fill="currentColor" />
+                                        </svg> </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M26.1151 1.87207H3.88505C2.82005 1.87207 1.95605 2.71507 1.95605 3.75607V26.2441C1.95605 27.2851 2.82005 28.1251 3.88505 28.1251H26.1151C27.1801 28.1251 28.0441 27.2851 28.0441 26.2441V3.75307C28.0411 2.71507 27.1771 1.87207 26.1151 1.87207ZM9.86405 23.8441H5.92505V11.9941H9.86405V23.8441V23.8441ZM7.89605 10.3771H7.86905C6.54605 10.3771 5.69405 9.46807 5.69405 8.32807C5.69405 7.16407 6.57605 6.27907 7.92005 6.27907C9.27005 6.27907 10.0981 7.16407 10.1221 8.32807C10.1221 9.46807 9.27005 10.3771 7.89605 10.3771ZM24.0721 23.8441H20.1301V17.5051C20.1301 15.9121 19.5631 14.8261 18.1381 14.8261C17.0461 14.8261 16.3981 15.5581 16.1131 16.2661C16.0111 16.5211 15.9871 16.8751 15.9871 17.2261V23.8501H12.0451C12.0451 23.8501 12.0961 13.1101 12.0451 11.9971H15.9871V13.6741C16.5091 12.8671 17.4481 11.7181 19.5361 11.7181C22.1281 11.7181 24.0721 13.4131 24.0721 17.0551V23.8441V23.8441Z"
+                                                fill="currentColor" />
+                                        </svg> </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg aria-hidden="true" focusable="false" data-prefix="fab"
+                                            data-icon="pinterest-p" class="svg-inline--fa fa-pinterest-p fa-w-12"
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M204 6.5C101.4 6.5 0 74.9 0 185.6 0 256 39.6 296 63.6 296c9.9 0 15.6-27.6 15.6-35.4 0-9.3-23.7-29.1-23.7-67.8 0-80.4 61.2-137.4 140.4-137.4 68.1 0 118.5 38.7 118.5 109.8 0 53.1-21.3 152.7-90.3 152.7-24.9 0-46.2-18-46.2-43.8 0-37.8 26.4-74.4 26.4-113.4 0-66.2-93.9-54.2-93.9 25.8 0 16.8 2.1 35.4 9.6 50.7-13.8 59.4-42 147.9-42 209.1 0 18.9 2.7 37.5 4.5 56.4 3.4 3.8 1.7 3.4 6.9 1.5 50.4-69 48.6-82.5 71.4-172.8 12.3 23.4 44.1 36 69.3 36 106.2 0 153.9-103.5 153.9-196.8C384 71.3 298.2 6.5 204 6.5z">
+                                            </path>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-instagram">
+                                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                        </svg> </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-widget-box">
+                        <div class="footer-widget">
+                            <h5>Category</h5>
+                            <div class="tag-list-inner">
+                                <div class="tag-list">
+                                    <ul>
+                                        <li><a href="#">culture</a></li>
+                                        <li><a href="#">popular</a></li>
+                                        <li><a href="#">travel</a></li>
+                                        <li><a href="#">international</a></li>
+                                        <li><a href="#">fashion</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tag-list">
+                                    <ul>
+                                        <li><a href="#">design</a></li>
+                                        <li><a href="#">photography</a></li>
+                                        <li><a href="#">food</a></li>
+                                        <li><a href="#">trending</a></li>
+                                        <li><a href="#">art</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 footer-widget-box">
+                        <div class="footer-widget">
+                            <h5>Useful Link</h5>
+                            <div class="f-menu-wrapper">
+                                <ul class="f-menu">
+                                    <li class="nav-features"><a href="#">Features</a></li>
+                                    <li class="nav-account"><a href="#">Account</a></li>
+                                    <li class="nav-signin"><a href="#">Signin</a></li>
+                                    <li class="nav-signup"><a href="#">Signup</a></li>
+                                    <li class="nav-post-fullwidth"><a href="#">Post Fullwidth</a></li>
+                                    <li class="nav-left-sidebar"><a href="#"></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-widget-box ">
+                        <div class="footer-widget">
+                            <h5>Contact Us</h5>
+                            <div class="contact-info">
+                                <address class="con-step-one mb-20">
+                                    <a href="#">newsvolt@gmail.com</a><br>
+                                    <span>+123 456 - 789</span>
+                                </address>
+                                <address class="con-step-one">
+                                    Road - 13 , Block - B<br>
+                                    <span>Grand Canion , Arizona , USA</span>
+                                </address>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 mx-auto text-center">
+                        <div class="copy-right-content">
+                            <div class="copy-right-text">
+                                <p>All copyright reserved by Electronthemes. Published with <a href="#">Ghost</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
